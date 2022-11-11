@@ -6,7 +6,7 @@ import usuariosRoute from './routes/usuariosRoute'
 
 const app = express();
 
-app.set ("port", 4000);
+app.set ("port", 4500);
 app.use(morgan("dev"));
 app.use(usuariosRoute);
 
