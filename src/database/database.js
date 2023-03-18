@@ -14,10 +14,10 @@ const connection = mysql.createConnection({
 
     
   
-console.log("1");
+
 
 const getConnection = () => {    
-    console.log("2");
+ 
     return connection;
 };
 
